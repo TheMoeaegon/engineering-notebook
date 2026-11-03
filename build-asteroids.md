@@ -5,6 +5,8 @@
 >
 > **Started:** 2026-11-01
 > **Progress so far:** FPS / delta time, game loop, sprite groups, player movement, asteroid field, shooting, collision, splitting asteroids
+>
+> **Project repository:** [TheMoeaegon/asteroids](https://github.com/TheMoeaegon/asteroids)
 
 This note is my "oh, that's why it works like that" reference. It explains the whole loop from creating objects to moving and drawing them, using the actual code in the `asteroids` repo.
 
