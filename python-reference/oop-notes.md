@@ -340,9 +340,9 @@ The terms "abstraction" and "encapsulation" mostly just emphasize different aspe
 
 **Video: Encapsulation vs. Abstraction**
 
-[![Encapsulation vs. Abstraction](../media/encapsulation-vs-abstraction-thumb.jpg)](../media/Encapsulation-Vs-Abstraction.mp4)
+![[Encapsulation-Vs-Abstraction.mp4]]
 
-[Download the full video (MP4)](../media/Encapsulation-Vs-Abstraction.mp4)
+[Download video (MP4)](../media/Encapsulation-Vs-Abstraction.mp4)
 
 ## How OOP Developers Think
 
@@ -492,9 +492,9 @@ Because all three classes have a .move() method, we can shove the objects into a
 
 **Video: Polymorphism**
 
-[![Polymorphism](../media/polymorphism-thumb.jpg)](../media/Polymorphism.mp4)
+![[Polymorphism.mp4]]
 
-[Download the full video (MP4)](../media/Polymorphism.mp4)
+[Download video (MP4)](../media/Polymorphism.mp4)
 
 ### Polymorphism Review
 
