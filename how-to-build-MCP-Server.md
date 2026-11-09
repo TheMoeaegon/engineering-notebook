@@ -1,12 +1,15 @@
 ## What is MCP?
-Mcp stands for model context protocol. MCP is an open standard that defines how AI models and external systems communicate. You can think of it as an API that’s designed specifically for AI assistants. 
+
+Mcp stands for model context protocol. MCP is an open standard that defines how AI models and external systems communicate. You can think of it as an API that’s designed specifically for AI assistants.
 
 If an API lets two software programs exchange data, MCP allows an AI model to talk to your system. This opens up endless possibilities.
 
 You could build an MCP server that lets ChatGPT read files from your local machine, or one that calls your company’s internal APIs to fetch data. You could even expose your own Python functions so that a model can use them as tools.
 
 MCP makes this communication structured, secure, and extendable. It runs on familiar web technologies such as Server-Sent Events, or SSE, which allow the server to send real-time data streams to the client.
+
 ## Why Build your own mcp server?
+
 Building an MCP server gives you control and flexibility.
 
 You can connect AI models directly to your databases or internal systems, automate repetitive actions, and decide exactly what data an AI model can access.

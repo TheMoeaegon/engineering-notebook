@@ -29,7 +29,7 @@ console.log(favoriteRothfussCharacter);
 
 The worst part is that the undeclared variable error actually says "not defined".
 
-> [!INFO]
+> [!NOTE]
 > As an aside, you can use `const` to declare a variable that is assigned to `undefined`, but you wouldn't be able to set its value later, so why would you want to?
 
 ```js
@@ -139,7 +139,7 @@ Nested data can _quickly_ become hard to work with. In most production systems y
 
 When using the normal `.` operator, if the object on the left side of the `.` is `null` or `undefined`, you'll get a `TypeError` at runtime! Thankfully, JavaScript has recently added a new operator to make dealing with this headache easier, the [optional chaining operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining): `?.`
 
-> [!INFO]
+> [!NOTE]
 > The **optional chaining (`?.`)** operator accesses an object's property or calls a function. If the object accessed or function called using this operator is [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) or [`null`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null), the expression short circuits and evaluates to [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) instead of throwing an error.
 
 ```js
@@ -232,7 +232,6 @@ console.log(person.getFullName());
 > [!NOTE]
 > Methods can change the properties of their objects as well:
 >
-
 > ```js
 > const tree = {
 >   height: 256,
@@ -253,7 +252,9 @@ console.log(person.getFullName());
 
 ### This
 
-![[this-and-arrow-functions-js.mp4]]
+**Video: This and Arrow Functions**
+
+[Watch the video (MP4)](../media/this-and-arrow-functions-js.mp4)
 
 The `this` keyword refers to the context where a piece of code is executed... let's cover some of those cases:
 
