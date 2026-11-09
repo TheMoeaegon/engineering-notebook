@@ -340,7 +340,7 @@ The terms "abstraction" and "encapsulation" mostly just emphasize different aspe
 
 **Video: Encapsulation vs. Abstraction**
 
-![[Encapsulation-Vs-Abstraction.mp4]]
+![Encapsulation vs. abstraction](../media/encapsulation-vs-abstraction.webp)
 
 ## How OOP Developers Think
 
@@ -352,7 +352,7 @@ To provide some contrast, when functional programmers aren't busy writing white 
 
 > "My game has 7 humans in it. When one takes a step, what's the next state of the game?"
 
-![[OOP-Vs-Functional-Programming.png]]
+![OOP vs. functional programming](../media/OOP-Vs-Functional-Programming.png)
 
 ### Both Paradigms Are Useful
 
@@ -422,7 +422,7 @@ Inheritance is a powerful tool, but do not overuse it (looking at you, Java devs
 
 > A should only inherit from B if A is always a B.
 
-![[Good-Vs-Bad-Inheritance-Hierarchy.png]]
+![Good vs. bad inheritance hierarchy](../media/Good-Vs-Bad-Inheritance-Hierarchy.png)
 
 For example:
 
@@ -442,7 +442,7 @@ When a child class inherits from a parent, it inherits everything. If you only w
 
 It's more common for an inheritance tree to be wide than deep.
 
-![[Deep-Vs-Wide-Inheritance-Tree.png]]
+![Deep vs. wide inheritance tree](../media/Deep-Vs-Wide-Inheritance-Tree.png)
 
 In your application code, you likely won't see a `Camera` class inherit from a chain of 13 classes up to `Equipment`. If you do: _run_. There are better organizations to work for, I swear.
 
@@ -490,7 +490,7 @@ Because all three classes have a .move() method, we can shove the objects into a
 
 **Video: Polymorphism**
 
-![[Polymorphism.mp4]]
+![Polymorphism](../media/polymorphism.webp)
 
 ### Polymorphism Review
 

@@ -36,6 +36,6 @@ To expand on this, TCP doesn't know anything about the data that it passes aroun
 
 A URL, or Uniform Resource Locator, is the address of another computer, or "server" on the internet. Part of the URL specifies where to reach the server, and part of it tells the server what information we want.
 
-![[Pasted image 20261104184621.png]]
+![HTTP URL structure](../media/http-url-structure.png)
 
 Put simply, a URL represents a piece of information on some computer somewhere. We can get access to it by making a request, and reading the response that the server replies with.

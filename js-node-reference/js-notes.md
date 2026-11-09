@@ -254,7 +254,9 @@ console.log(person.getFullName());
 
 **Video: This and Arrow Functions**
 
-[Watch the video (MP4)](../media/this-and-arrow-functions-js.mp4)
+![This and arrow functions](../media/this-and-arrow-functions-js.webp)
+
+[Watch the full-quality video (MP4)](../media/this-and-arrow-functions-js.mp4)
 
 The `this` keyword refers to the context where a piece of code is executed... let's cover some of those cases:
 
